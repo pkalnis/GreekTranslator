@@ -3,7 +3,7 @@
 In this homework, you will translate an entire file.
 
 ```input.txt``` contains the English text.
-Read it using ```f.open()```, translate the entire file to Greek and write the translation to file ```output.txt```.
+Read it using ```f.open()```, translate the entire file to Greek and write the translation to file ```output.txt``` using ```f.write()```.
 
 **Note:** The entire file is too long to send to the model at once. Therefore, you need to split it in smaller parts using some combination of ```split()``` functions.
 
