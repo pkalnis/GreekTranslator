@@ -1,7 +1,7 @@
 """Translate English phrases to Greek using Helsinki-NLP/opus-mt-en-el."""
 from transformers import MarianMTModel, MarianTokenizer
 
-MODEL_NAME = "Helsinki-NLP/opus-mt-en-el"
+MODEL_NAME = "Helsinki-NLP/opus-mt-ell-eng"
 SAFETENSORS_REVISION = "refs/pr/2"
 
 def load_model(model_name: str):
